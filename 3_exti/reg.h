@@ -44,7 +44,7 @@
 #define PLLM_5_BIT 5
 #define PLLM_0_BIT 0
 
-#define RCC_CFGR_OFFSET 0x08
+#define RCC_CFGR_OFFSET 0x08   //p165
 #define MCO2_1_BIT 31
 #define MCO2_0_BIT 30
 
@@ -61,7 +61,7 @@
 #define GPIO_EN_BIT(port) (port)
 
 #define RCC_APB2ENR_OFFSET 0x44
-#define SYSCFGEN_BIT 14
+#define SYSCFG_EN_BIT 14
 
 //GPIO
 #define GPIO_PORTA 0
@@ -102,7 +102,7 @@
 #define EXTI_PR_OFFSET 0x14
 
 //SYSCFG
-#define SYSCFG_BASE 0x40013800
+#define SYSCFG_BASE 0x40013800   //p66
 
 #define SYSCFG_EXTICR1_OFFSET 0x08
 
